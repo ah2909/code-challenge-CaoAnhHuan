@@ -1,0 +1,2 @@
+- docker-compose up –build
+- docker exec -it backend-server npx prisma migrate dev
