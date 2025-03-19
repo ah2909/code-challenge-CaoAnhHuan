@@ -8,11 +8,11 @@ The **Scoreboard API Service** provides a real-time leaderboard. Users with auth
 
 ## Architecture
     
-    ![Architecture Diagram](./architecture.png)
+    Open file architecture.png for detail.
 
 ## Diagram for execution flow
 
-    ![Activity Diagram](./activity-diagram.png)
+    Open file activity-diagram.png for detail.
 
 ## API Documentation
 
