@@ -21,7 +21,7 @@ app.use((error: any, req: Request, res: any, next: NextFunction) => {
     console.error('Validation error:', error.message);
     return res.status(400).json({
       status: 'error',
-      message: 'Invalid input data',
+      message: error.message,
     });
   } else if (error instanceof Prisma.PrismaClientInitializationError) {
     console.error('Database connection failed:', error.message);
